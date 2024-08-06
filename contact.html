@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--Navigation-->
-<nav class="navbar nav-underline navbar-expand-lg bg-body-tertiary">
+<nav class="navbar fixed-top nav-underline navbar-expand-lg bg-body-tertiary">
     <!--mess with navigation bar here-->
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -39,15 +39,23 @@
     </div>
   </nav>
 <!--Hero Image-->
+<div class="container"></div>
 <div class="container"><h2> Contact Me!</h2>
 <p>Email me at <a href="mailto: cheney.j.patrick@gmail.com"> cheney.j.patrick@gmail.com </a> or leave me a message below!</p>
+
+<form
+  action="https://formspree.io/f/xeojgypz"
+  method="POST"
+>
 <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
   <div class="mb-3">
     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  <button type="button" class="btn btn-primary">Send Message</button>
+  <button type="button submit" class="btn btn-primary">Send Message</button>
 </div>
+  
+</form>
