@@ -1,7 +1,9 @@
 .navbar {
     padding: 30px;
+    justify-content: center;
+    text-align:center;
 }
-
-,firstcontainer {
-    padding: 30px;
+.navbar-nav {
+    justify-content: center;
+    gap: 30px;
 }
