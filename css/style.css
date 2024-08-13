@@ -1,8 +1,5 @@
 .navbar {
-    padding: 30px;
-    justify-content: center;
-    background-color: rgb(140, 197, 118);
-    text-align:center;
+    padding: 30px !important;
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
@@ -10,7 +7,7 @@
 }
 
 .navbar {
-    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-x: 30px;
     --bs-navbar-padding-y: 0.5rem;
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
     --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
