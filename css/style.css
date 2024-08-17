@@ -1,3 +1,33 @@
+.heroimage {
+    border-radius: 50%;
+}
+.row {
+ padding: 30px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.casestudies {
+    justify-content: center !important;
+}
 .navbar {
     padding: 30px !important;
 }
@@ -41,4 +71,14 @@
 .navbar-nav {
     justify-content: center;
     gap: 30px;
+}
+
+
+@font-face {
+    font-family: mexcellent3d;
+    src: url(/Portfolio/assets/Mexcellent3D.ttf);
+}
+
+h1, h2, h3 {
+    font-family: mexcellent3d;
 }
